@@ -11,6 +11,7 @@
 #define BASE 0
 
 / {
+    keymap {
     BASE {
         compatible = "zmk,keymap";
 
@@ -22,5 +23,6 @@
                                                    &kp BSPC                                &kp SPACE
             >;
         };
+    };
     };
 };
