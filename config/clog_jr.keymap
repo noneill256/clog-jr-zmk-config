@@ -116,7 +116,7 @@
   &kp Z   &kp S   &kp E     &kp A   &kp F       &kp B     &kp T   &kp N   &kp H   &kp Q
       /*    18      19      20      21           22         23      24      25  */
           &kp X   &kp C     &kp V   &kp K       &kp J     &kp L   &kp G   &kp W
-                            26                          27
+                  /*        26                          27      */
                          &kp BSPC                  &td0
             >;
         };
@@ -133,14 +133,14 @@
             >;
         };
 
-        SYM { // EDIT THE KEYS HERE
+        SYM { 
             bindings = <
            /*             [           {           (                       ~           )           }        ]  */
                        &kp LBKT   &kp LBRC   &kp LPAR   &trans         &kp TILDE  &kp RPAR   &kp RBRC   &kp RBKT
            /*    !       @           #           $           %           *           -           =         \         `  */
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE
-           /*            |           *            &           ^           <           >           ,      .   */  
-                       &kp PIPE   &kp ASTERISK &kp AMPERSAND &kp CARET    &kp LT   &kp GT   &kp COMMA  &kp DOT
+           /*            |           &           ^           <           >           ,           .          /      */  
+                       &kp PIPE   &kp AMPS   &kp CARET  &kp LT          &kp GT   &kp COMMA   &kp DOT  &kp FSLH
                                                         &trans           &trans   
             >;
         };
