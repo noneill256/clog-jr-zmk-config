@@ -133,14 +133,14 @@
             >;
         };
 
-        SYM {
+        SYM { // EDIT THE KEYS HERE
             bindings = <
            /*             [           {           (                       ~           )           }           ]  */
                        &kp LBKT   &kp LBRC   &kp LPAR   &trans         &kp TILDE  &kp RPAR   &kp RBRC   &kp RBKT
            /*    !       @           #           $           %           *           -           =           \         `  */
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE
-           /*                        *            &                                 ^           =           |   */  
-                       &trans    &kp ASTERISK &kp AMPERSAND &trans      &trans   &kp CARET   &kp EQUAL  &kp PIPE
+           /*            |           *            &           ^           <           >           ,          .   */  
+                       &kp PIPE   &kp ASTERISK &kp AMPERSAND &kp CARET      &trans   &kp CARET   &kp COMMA  &kp DOT
                                                         &trans           &trans   
             >;
         };
