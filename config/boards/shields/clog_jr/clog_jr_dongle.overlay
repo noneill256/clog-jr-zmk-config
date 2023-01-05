@@ -1,8 +1,7 @@
 #include "clog_jr.dtsi"
 
 &kscan0 {
-	// i have no idea what i'm doing ^_^v
 	col-gpios
-	= <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+	= <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 	;
 };
