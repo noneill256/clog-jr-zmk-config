@@ -1,5 +1,6 @@
 #include "clog_jr.dtsi"
 
+/*
 &kscan_faceup {
 	input-gpios
 	= <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
@@ -9,5 +10,13 @@
 &kscan_facedown {
 	input-gpios
 	= <&xiao_d 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+	;
+};
+*/
+
+&kscan0 {
+	// i have no idea what i'm doing ^_^v
+	input-gpios
+	= <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 	;
 };
