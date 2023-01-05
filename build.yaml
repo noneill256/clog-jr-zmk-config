@@ -17,5 +17,5 @@ include:
     shield: clog_jr_left
   - board: seeeduino_xiao_ble
     shield: clog_jr_right
-- board: seeeduino_xiao_ble
+  - board: seeeduino_xiao_ble
     shield: clog_jr_dongle
