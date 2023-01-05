@@ -16,7 +16,7 @@
 
 &kscan0 {
 	// i have no idea what i'm doing ^_^v
-	input-gpios
+	col-gpios
 	= <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 	;
 };
