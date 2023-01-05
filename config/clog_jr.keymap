@@ -149,7 +149,7 @@
             bindings = <
                      &kp C_VOL_UP    &kp C_MUTE         &kp C_VOL_UP     &reset             &kp DEL       &kp HOME   &kp UP    &kp PG_UP  
             &trans   &kp C_PREV      &kp C_PLAY_PAUSE   &kp C_NEXT       &kp ESC            &kp C_AL_CALC &kp LEFT   &kp DOWN  &kp RIGHT   &kp PRINTSCREEN
-                     &kp C_BRI_DN    &trans             &kp C_BRI_UP     &trans             &BT_NEXT   &kp END    &trans    &kp PG_DN  
+                     &kp C_BRI_DN    &trans             &kp C_BRI_UP     &trans             &kp BT_NXT   &kp END    &trans    &kp PG_DN  
                                                        &trans                                    &trans
             >;
         };
