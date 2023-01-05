@@ -6,7 +6,6 @@ config SHIELD_CLOG_JR
 
 config SHIELD_CLOG_JR_DONGLE
 	def_bool $(shields_list_contains,clog_jr_dongle)
-	select SHIELD_CLOG_JR_DONGLE
 
 config SHIELD_CLOG_JR_LEFT
     def_bool $(shields_list_contains,clog_jr_left)
