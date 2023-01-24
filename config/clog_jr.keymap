@@ -111,11 +111,11 @@
         BASE {
             bindings = <
         /*  0       1       2        3           4         5       6       7       */
-          &kp I   &kp R     &kp U   &kp P       &kp Y     &kp O   &kp D   &kp M
+          &kp I   &kp R     &kp G   &kp P       &kp Y     &kp D   &kp O   &kp M
 /* 8        9       10      11      12           13          14      15      16      17 */
   &kp Z   &kp S   &kp E     &kp A   &kp F       &kp B     &kp T   &kp N   &kp H   &kp Q
       /*    18      19      20      21           22         23      24      25  */
-          &kp X   &kp C     &kp V   &kp K       &kp J     &kp L   &kp G   &kp W
+          &kp X   &kp C     &kp V   &kp K       &kp J     &kp L   &kp U   &kp W
                   /*        26                          27      */
                                 &td0                  &kp BSPC
             >;
