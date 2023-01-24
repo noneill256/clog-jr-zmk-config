@@ -123,13 +123,14 @@
         
         NUM {
             bindings = <
-         /*                1         2           3       -                  F1       F2          F3          F4   */
+         /*                1         2           3       -                  F1       F2          F3          F4  */
                        &kp N1     &kp N2     &kp N3    &kp KP_MINUS     &kp F1     &kp F2     &kp F3     &kp F4
-         /*    =        4           5           6        +                  F5      F6          F7          F8       /   */
+         /*    =        4           5           6        +                  F5      F6          F7          F8       /  */
           &kp KP_EQUAL &kp N4     &kp N5     &kp N6    &kp KP_PLUS      &kp F5     &kp F6     &kp F7     &kp F8     &kp FSLH
-         /*             7           8           9        0                  F9      F10         F11         F12     */
-                       &kp N7    &kp N8     &kp N9     &kp N0           &kp F9      &kp F10    &kp F11    &kp F12
-                                                       &kp KP_DOT       &kp ASTERISK   
+         /*             7           8           9        .                  F9      F10         F11         F12   */
+                       &kp N7    &kp N8     &kp N9     &kp KP_DOT       &kp F9      &kp F10    &kp F11    &kp F12
+                                                    /*   0                  *    */
+                                                       &kp N0           &kp ASTERISK   
             >;
         };
 
@@ -137,9 +138,9 @@
             bindings = <
            /*             [          {           (         *               ~         )           }        ]  */
                        &kp LBKT   &kp LBRC   &kp LPAR   &kp ASTR       &kp TILDE &kp RPAR    &kp RBRC &kp RBKT
-           /*    !       @           #           $        "               '           ,           .         /         `  */
-             &kp EXCL  &kp AT     &kp HASH   &kp DLLR   &kp DQT        &kp SQT   &kp COMMA   &kp DOT  &kp FSLH   &kp GRAVE
-           /*            %           ^           &          <            >           -           =         \      */  
+           /*    !       @           #           $        "               '           ,           .       /       `  */
+             &kp EXCL  &kp AT     &kp HASH   &kp DLLR   &kp DQT        &kp SQT   &kp COMMA   &kp DOT  &kp FSLH  &kp GRAVE
+           /*            %           ^           &          <            >           -           =        \      */  
                        &kp PRCNT  &kp CARET  &kp AMPS   &kp LT          &kp GT   &kp KP_MINUS &kp EQUAL &kp BSLH
                                                         &trans           &trans   
             >;
