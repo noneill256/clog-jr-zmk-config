@@ -117,7 +117,7 @@
       /*    18      19      20      21           22         23      24      25  */
           &kp X   &kp C     &kp V   &kp K       &kp J     &kp L   &kp U   &kp W
                   /*        26                          27      */
-                                &td0                  &kp BSPC
+                                &kp BSPC             &td0
             >;
         };
         
