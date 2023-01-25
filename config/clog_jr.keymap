@@ -137,7 +137,7 @@
         SYM { 
             bindings = <
            /*             [          {           (         *               ~         )           }        ]  */
-                       &kp LBKT   &kp LBRC   &kp LPAR   &kp ASTR       &kp TILDE &kp RPAR    &kp RBRC &kp RBKT
+                       &kp LBKT   &kp LBRC   &kp LPAR   &kp ASTRk      &kp TILDE &kp RPAR    &kp RBRC  &kp RBKT
            /*    |       @           #           $        "               '           ,           .       /       `  */
              &kp PIPE  &kp AT     &kp HASH   &kp DLLR   &kp DQT        &kp SQT   &kp COMMA   &kp DOT  &kp FSLH  &kp GRAVE
            /*            %           ^           &          <            >           -           =        \      */  
