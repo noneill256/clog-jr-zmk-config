@@ -12,6 +12,7 @@
 #define NUM 1
 #define SYM 2
 #define SYS 3
+#define NAV 4
 
 / {
     behaviors {
@@ -127,7 +128,7 @@
         combo_nav {
             timeout-ms = <80>;
             key-positions = <14 15 16>;
-            bindings = <&tog NAV>;
+            bindings = <&tog 4>;
         };
     };
     
