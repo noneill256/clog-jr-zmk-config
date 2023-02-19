@@ -123,12 +123,17 @@
             key-positions = <18 19 27>;
             bindings = <&back_macro>;
         };
+        
+        combo_nav {
+            timeout-ms = <80>;
+            key-positions = <14 15 16>;
+            bindings = <&tog NAV>;
+        };
     };
     
     keymap {
         compatible = "zmk,keymap";
 
-Let's go to his
         
         NUM {
             bindings = <
